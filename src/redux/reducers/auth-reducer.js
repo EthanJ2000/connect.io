@@ -1,0 +1,17 @@
+const initialState = {
+  isAuthenticated: false,
+  accountHolder: "",
+};
+
+const authReducer = (authState = initialState, action) => {
+  switch (action.type) {
+    case "set_auth_status":
+      return { ...authState, isAuthenticated: action.authenticated };
+    case "set_account_holder":
+      return { ...authState, accountHolder: action.name };
+    default:
+      return authState;
+  }
+};
+
+export default authReducer;

@@ -1,0 +1,36 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .register-form {
+    width: 30vw;
+    margin-top: 5vh;
+    align-self: center;
+
+    .label {
+      float: left;
+      color: gray;
+    }
+
+    .signin-button {
+      color: white;
+      background-color: #0353a4;
+      margin-top: 3vh;
+      width: 30vw;
+      height: 7vh;
+    }
+  }
+
+  .register-footer {
+    display: flex;
+    bottom: 0;
+    margin-bottom: 2vh;
+    position: absolute;
+    align-self: center;
+    .login-text {
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

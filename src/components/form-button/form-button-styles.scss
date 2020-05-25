@@ -1,0 +1,22 @@
+.form-button-container {
+  background-color: #0353a4;
+  border-radius: 0.3vw;
+  cursor: pointer;
+  margin-top: 5vh;
+  height: 6vh;
+  width: 30vw;
+  box-shadow: 3px 3px #f1f1f1;
+
+  &:active {
+    background-color: #003c78;
+    box-shadow: 3px 3px #dddddd;
+  }
+  .form-button-text {
+    color: white;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.2vw;
+    user-select: none;
+  }
+}
